@@ -79,6 +79,10 @@ textarea{
   font-size: var(--normal-font-size);
 }
 
+.button {
+  background-color: #e62517;
+}
+
 body{
   margin: var(--header-height) 0 0 0;
   background-color: var(--body-color);
@@ -369,7 +373,7 @@ the website, in dark theme
 /*=============== BUTTONS ===============*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
   color: #FFF;
   padding: 1rem 1.75rem;
   border-radius: .5rem;
@@ -971,7 +975,7 @@ the website, in dark theme
     padding: 13rem 0 5rem;
   }
   .home__img{
-    width: 350px;
+    width: 400px;
   }
   .home__description{
     padding-right: 7rem;
