@@ -383,9 +383,12 @@ the website, in dark theme
   transition: .3s;
 }
 
-.button:hover{
+/* .button:hover{
   background-color: var(--first-color-alt);
 }
+.button:hover{
+  background-color: var(--first-color-alt);
+} */
 
 .button__icon{
   transition: .3s;
@@ -402,9 +405,25 @@ the website, in dark theme
 }
 
 .button--link{
-  color: var(--first-color);
+  /* color: var(--first-color); */
+  color: #e62517;
+  background-color: #FFF;
   font-weight: var(--font-medium);
+  padding: 0.8rem 1.3rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .3s;
 }
+
+
+.button--flex1:hover {
+  background-color: #ff4c3f;
+  color: #FFF;
+} 
+
+.button--flex:hover {
+  background-color: #ff1100
+} 
 
 .button--link:hover .button__icon{
   transform: translateX(.25rem);
@@ -450,7 +469,8 @@ the website, in dark theme
 
 .about__details-icon{
   font-size: 1rem;
-  color: var(--first-color);
+  color: #e62517;
+  /* color: var(--first-color); */
   margin-top: .15rem;
 }
 
