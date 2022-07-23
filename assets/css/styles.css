@@ -339,7 +339,8 @@ the website, in dark theme
 .home__social-follow{
   font-weight: var(--font-medium);
   font-size: var(--smaller-font-size);
-  color: var(--first-color);
+  color: #e62517;
+  /* color: var(--first-color); */
   position: relative;
   transform: rotate(90deg);
 }
@@ -362,7 +363,8 @@ the website, in dark theme
 
 .home__social-link{
   font-size: 1rem;
-  color: var(--first-color);
+  color: #e62517;
+  /* color: var(--first-color); */
   transition: .3s;
 }
 
@@ -416,6 +418,14 @@ the website, in dark theme
 .about__img{
   width: 280px;
   justify-self: center;
+}
+
+.about__container img {
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
 }
 
 .about__title{
