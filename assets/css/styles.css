@@ -476,7 +476,8 @@ the website, in dark theme
 
 /*=============== STEPS ===============*/
 .steps__bg{
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #0d2957;
   padding: 3rem 2rem 2rem;
   border-radius: 1rem;
 }
@@ -491,14 +492,16 @@ the website, in dark theme
 }
 
 .steps__card{
-  background-color: var(--container-color);
+  /* background-color: var(--container-color); */
+  background-color: #0d2957 ;
   padding: 2.5rem 3rem 2rem 1.5rem;
   border-radius: 1rem;
 }
 
 .steps__card-number{
   display: inline-block;
-  background-color: var(--first-color-alt);
+  /* background-color: var(--first-color-alt); */
+  background-color: #d12115;
   color: #FFF;
   padding: .5rem .75rem;
   border-radius: .25rem;
@@ -514,6 +517,7 @@ the website, in dark theme
 
 .steps__card-description{
   font-size: var(--small-font-size);
+  color: #FFF;
 }
 
 .steps__card:hover .steps__card-number{
@@ -1023,6 +1027,7 @@ the website, in dark theme
   }
   .steps__card-title{
     font-size: var(--normal-font-size);
+    color: white;
   }
 
   .product__description{
