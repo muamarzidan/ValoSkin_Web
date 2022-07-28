@@ -96,10 +96,11 @@ button{
   outline: none;
 }
 
-h1,h2,h3{
+h1,h2{
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
 }
+
 
 ul{
   list-style: none;
@@ -513,6 +514,7 @@ the website, in dark theme
 .steps__card-title{
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
+  color: #FFF;
 }
 
 .steps__card-description{
@@ -542,7 +544,7 @@ the website, in dark theme
 
 .product__img{
   position: relative;
-  width: 120px;
+  width: 150px;
   justify-self: center;
   margin-bottom: var(--mb-0-75);
   transition: .3s;
@@ -563,7 +565,8 @@ the website, in dark theme
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: #d12115;
+ /* background-color: var(--first-color); */
   color: #FFF;
   padding: .25rem;
   border-radius: .35rem;
@@ -1026,6 +1029,10 @@ the website, in dark theme
     padding: 3.5rem 2.5rem;
   }
   .steps__card-title{
+    font-size: var(--normal-font-size);
+    color: white;
+  }
+  .steps__card h3{
     font-size: var(--normal-font-size);
     color: white;
   }
