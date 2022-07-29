@@ -141,7 +141,7 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__data`)
 sr.reveal(`.steps__title`)
-sr.reveal('.section__title-center', {origin: 'right'})
+sr.reveal(`.sectionn__title-center`, {origin: 'right'})
 sr.reveal('.product__description', {origin: 'left'})
 sr.reveal(`.home__img`, {delay: 500})
 sr.reveal(`.home__social`, {delay: 600})

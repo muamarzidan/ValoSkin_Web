@@ -173,8 +173,16 @@ the website, in dark theme
   margin-bottom: var(--mb-2);
   line-height: 140%;
 }
+.sectionn__title-center{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-2);
+  line-height: 140%;
+}
 
 .section__title-center{
+  text-align: center;
+}
+.sectionn__title-center{
   text-align: center;
 }
 
@@ -279,7 +287,7 @@ the website, in dark theme
 }
 
 .nav__link:hover{
-  color: var(--first-color);
+  color:darkblue;
 }
 
 /* Show menu */
@@ -295,7 +303,7 @@ the website, in dark theme
 /* Active link */
 .active-link{
   position: relative;
-  color: var(--first-color);
+  color: #ff1100;
 }
 
 .active-link::after{
@@ -305,7 +313,7 @@ the website, in dark theme
   left: 0;
   width: 50%;
   height: 2px;
-  background-color: var(--first-color);
+  background-color: #b81308;
 }
 
 /*=============== HOME ===============*/
@@ -346,7 +354,6 @@ the website, in dark theme
   font-weight: var(--font-medium);
   font-size: var(--smaller-font-size);
   color: #e62517;
-  /* color: var(--first-color); */
   position: relative;
   transform: rotate(90deg);
 }
@@ -356,7 +363,7 @@ the website, in dark theme
   position: absolute;
   width: 1rem;
   height: 2px;
-  background-color: var(--first-color);
+  background-color: #e62517;
   right: -45%;
   top: 50%;
 }
@@ -506,11 +513,12 @@ the website, in dark theme
 
 .steps__card-number{
   display: inline-block;
-  background-color: #ffffff;
-  color: black;
+  background-color: #ececec;
+  color: rgb(19, 19, 19);
   padding: .5rem .75rem;
   border-radius: .25rem;
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
+  font-weight: bold;
   margin-bottom: var(--mb-1-5);
   transition: .3s;
 }
@@ -518,12 +526,12 @@ the website, in dark theme
 .steps__card-title{
   /* font-size: var(--h3-font-size); */
   margin-bottom: var(--mb-0-5);
-  color: #FFF;
+  color: #ececec;
 }
 
 .steps__card-description{
   font-size: var(--small-font-size);
-  color: #FFF;
+  color: #ececec;
 }
 
 .steps__card:hover .steps__card-number{
@@ -570,7 +578,6 @@ the website, in dark theme
   right: 0;
   bottom: 0;
   background-color: #d12115;
- /* background-color: var(--first-color); */
   color: #FFF;
   padding: .25rem;
   border-radius: .35rem;
@@ -578,7 +585,7 @@ the website, in dark theme
 }
 
 .product__button:hover{
-  background-color: var(--first-color-alt);
+  background-color: black;
 }
 
 .product__circle{
@@ -857,7 +864,7 @@ the website, in dark theme
 /*=============== SCROLL UP ===============*/
 .scrollup{
   position: fixed;
-  background-color: var(--first-color);
+  background-color: #e62517;
   right: 1rem;
   bottom: -30%;
   display: inline-flex;
@@ -1009,6 +1016,9 @@ the website, in dark theme
   }
   .section__title,
   .section__title-center{
+    font-size: var(--h1-font-size);
+  }
+  .sectionn__title-center{
     font-size: var(--h1-font-size);
   }
 
