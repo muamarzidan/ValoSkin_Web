@@ -187,7 +187,7 @@ the website, in dark theme
 }
 
 .container{
-  max-width: 968px;
+  max-width: 1200px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -1056,7 +1056,7 @@ the website, in dark theme
   .product__container{
     padding: 4rem 0;
     grid-template-columns: repeat(3, 185px);
-    gap: 4rem 6rem;
+    gap: 4rem 13rem;
   }
   .product__img{
     width: 160px;
@@ -1090,7 +1090,7 @@ the website, in dark theme
     font-size: var(--h3-font-size);
   }
   .footer__container{
-    grid-template-columns: 1fr .5fr .5fr .5fr;
+    grid-template-columns: 1fr .5fr .5fr;
   }
   .footer__copy{
     margin: 7rem 0 2rem;
